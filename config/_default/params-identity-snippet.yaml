@@ -1,0 +1,15 @@
+# 把 config/_default/params.yaml 里面 hugoblox.identity 这一段
+# 替换成下面这块。其余字段保留原样。
+#
+# 主要好处:
+#   - 浏览器标签会显示 "Zehai Niu" 而不是 "Your Name"
+#   - 搜索引擎抓到的描述会更专业
+#   - 投资人 Google 你名字时第一个搜索结果摘要就是这段
+
+hugoblox:
+  identity:
+    name: "Zehai Niu"
+    organization: "Shenzhen University"
+    type: person
+    tagline: "Assistant Professor · Edge VLMs & Interpretability"
+    description: "Zehai Niu is an Assistant Professor at Shenzhen University working on edge-device inference acceleration and interpretability of Vision-Language Models. Previously AI Researcher at HONOR (M-DLSS 3.0, RobotPhone), in collaboration with Google Gemma, Qualcomm, and Alibaba Qwen."

@@ -1,0 +1,151 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Zehai Niu
+  given: Zehai
+  family: Niu
+  alternate: '牛泽海'
+  pronouns: he/him
+role: Assistant Professor · Shenzhen University
+bio: |
+  Zehai Niu is an Assistant Professor at Shenzhen University. His research
+  focuses on **edge-device inference acceleration for Vision-Language Models
+  (VLM)** and **VLM interpretability** — building VLMs that run fast on
+  consumer devices, and that we actually understand.
+
+  He received his PhD from the University of Chinese Academy of Sciences
+  (UCAS) in 2024. From July 2024 to May 2026, he was an AI Researcher at
+  **HONOR Device**, where he led innovation for the gaming business — including
+  **M-DLSS 3.0**, the industry's first NPU-GPU heterogeneous frame interpolation
+  system shipped to consumer phones — and the embodied intelligence stack of
+  **RobotPhone**. During this period, he worked closely with **Google's Gemma
+  team**, **Qualcomm**, and **Alibaba's Qwen (Tongyi Qianwen) Lab**.
+
+  He has published 20+ papers at ICCV, ECCV, ACM MM, IEEE TCSVT, IEEE TMM and
+  other top venues, holds 10+ patents, and serves as a reviewer for ICLR,
+  ICCV, ECCV, and ACM MM. He has been a visiting researcher at Tsinghua
+  University and the National University of Singapore.
+
+affiliations:
+  - name: Shenzhen University
+    url: https://english.szu.edu.cn/
+
+links:
+  - icon: at-symbol
+    url: mailto:niuzehai@szu.edu.cn
+    label: E-mail
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=ulluI-0AAAAJ&hl=zh-CN&oi=ao
+  - icon: brands/github
+    url: https://github.com/
+  - icon: academicons/orcid
+    url: https://orcid.org/
+
+interests:
+  - VLM Edge-device Inference Acceleration
+  - VLM Interpretability
+  - Vision-Language Models
+  - Embodied Intelligence
+  - Efficient Multimodal AI
+
+education:
+  - degree: PhD in Computer Applied Technology
+    institution: University of Chinese Academy of Sciences (UCAS)
+    start: 2019-09-01
+    end: 2024-07-01
+    summary: |
+      Research on 3D human pose estimation, motion capture, and motion
+      generation. Published at ICCV, ECCV, ACM MM, IEEE TCSVT, and other
+      top venues.
+
+experience:
+  - role: Assistant Professor
+    org: Shenzhen University
+    start: 2026-05-21
+    summary: |
+      Building a research group focused on **VLM edge-device inference
+      acceleration** and **VLM interpretability**. The group is actively
+      recruiting master's students and interns year-round.
+    button:
+      text: Join the lab
+      url: '#lab'
+      icon: hero/arrow-right
+
+  - role: AI Researcher
+    org: HONOR Device Co., Ltd.
+    start: 2024-07-01
+    end: 2026-05-20
+    summary: |
+      - Led AI innovation for HONOR's gaming business. Built **M-DLSS 3.0**,
+        the industry's first NPU-GPU heterogeneous frame interpolation system
+        shipped to consumer phones.
+      - Led the embodied intelligence capabilities of **RobotPhone**.
+      - Close research and engineering collaboration with **Google Gemma**,
+        **Qualcomm**, and **Alibaba Qwen Lab**.
+
+  - role: Visiting Researcher
+    org: Tsinghua University
+    start: 2023-09-01
+    end: 2024-3-31
+    summary: Research exchange on 3D human motion understanding.
+
+  - role: Visiting Researcher
+    org: National University of Singapore
+    start: 2024-05-01
+    end: 2024-07-01
+    summary: Research exchange on vision-language understanding.
+
+skills:
+  - name: Research
+    items:
+      - label: Vision-Language Models
+        level: 5
+      - label: Edge / On-device Inference
+        level: 5
+      - label: Model Interpretability
+        level: 4
+      - label: Embodied AI
+        level: 4
+      - label: Generative Models (Diffusion, VAE, SSM)
+        level: 4
+  - name: Engineering
+    items:
+      - label: PyTorch
+        level: 5
+      - label: NPU-GPU Heterogeneous Computing
+        level: 5
+      - label: Real-time Inference Optimization
+        level: 5
+      - label: Mobile / Edge Deployment
+        level: 4
+
+awards:
+  - title: 'Industry Collaborations'
+    awarder: Google · Qualcomm · Alibaba
+    summary: |
+      Active research collaborations with Google Gemma, Qualcomm, and
+      Alibaba Qwen Lab during HONOR tenure.
+    icon: hero/sparkles
+  - title: 'Shipped to consumers: M-DLSS 3.0'
+    awarder: HONOR Device
+    summary: |
+      Industry-first NPU-GPU heterogeneous frame interpolation system
+      shipped on HONOR gaming phones.
+    icon: hero/cpu-chip
+  - title: 'Reviewer'
+    awarder: ICLR · ICCV · ECCV · ACM MM
+    summary: Serving as a reviewer for top-tier AI/CV conferences.
+    icon: hero/academic-cap
+  - title: '20+ Publications · 10+ Patents'
+    awarder: ICCV / ECCV / ACM MM / IEEE TCSVT / IEEE TMM
+    summary: Published at international top conferences and journals.
+    icon: hero/trophy
+
+languages:
+  - name: Chinese
+    level: 5
+    label: Native
+  - name: English
+    level: 4
+    label: Fluent
