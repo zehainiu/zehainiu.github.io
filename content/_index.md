@@ -193,7 +193,7 @@ sections:
         agents, and where this is all going.
       button:
         text: Email me
-        url: mailto:zehai.niu@szu.edu.cn
+        url: mailto:niuzehai@szu.edu.cn
     design:
       card:
         css_class: 'bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl'

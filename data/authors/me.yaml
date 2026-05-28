@@ -3,7 +3,7 @@ slug: me
 is_owner: true
 
 avatar:
-  filename: avatar.jpg        # ← 补上这个，照片就能显示
+  filename: authors/me/avatar.jpg
 
 name:
   display: Zehai Niu
