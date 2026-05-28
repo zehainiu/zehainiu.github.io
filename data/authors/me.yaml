@@ -1,15 +1,21 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
+avatar:
+  filename: avatar.jpg        # ← 补上这个，照片就能显示
+
 name:
   display: Zehai Niu
   given: Zehai
   family: Niu
   alternate: '牛泽海'
   pronouns: he/him
+
 role: Assistant Professor · Shenzhen University
+
 bio: |
-  Zehai Niu is an Assistant Professor at Shenzhen University. His research
+  Zehai Niu is an **Assistant Professor at Shenzhen University**. His research
   focuses on **edge-device inference acceleration for Vision-Language Models
   (VLM)** and **VLM interpretability** — building VLMs that run fast on
   consumer devices, and that we actually understand.
@@ -24,8 +30,7 @@ bio: |
 
   He has published 20+ papers at ICCV, ECCV, ACM MM, IEEE TCSVT, IEEE TMM and
   other top venues, holds 10+ patents, and serves as a reviewer for ICLR,
-  ICCV, ECCV, and ACM MM. He has been a visiting researcher at Tsinghua
-  University and the National University of Singapore.
+  ICCV, ECCV, and ACM MM.
 
 affiliations:
   - name: Shenzhen University
@@ -58,9 +63,19 @@ education:
       Research on 3D human pose estimation, motion capture, and motion
       generation. Published at ICCV, ECCV, ACM MM, IEEE TCSVT, and other
       top venues.
+  - degree: Visiting Researcher
+    institution: National University of Singapore (NUS)
+    start: 2024-05-01
+    end: 2024-07-01
+    summary: Research exchange on vision-language understanding.
+  - degree: Visiting Researcher
+    institution: Tsinghua University
+    start: 2023-09-01
+    end: 2024-03-31
+    summary: Research exchange on 3D human motion understanding.
 
 experience:
-  - role: Assistant Professor
+  - role: "**Assistant Professor**"
     org: Shenzhen University
     start: 2026-05-21
     summary: |
@@ -85,16 +100,16 @@ experience:
         **Qualcomm**, and **Alibaba Qwen Lab**.
 
   - role: Visiting Researcher
-    org: Tsinghua University
-    start: 2023-09-01
-    end: 2024-3-31
-    summary: Research exchange on 3D human motion understanding.
-
-  - role: Visiting Researcher
     org: National University of Singapore
     start: 2024-05-01
     end: 2024-07-01
     summary: Research exchange on vision-language understanding.
+
+  - role: Visiting Researcher
+    org: Tsinghua University
+    start: 2023-09-01
+    end: 2024-03-31
+    summary: Research exchange on 3D human motion understanding.
 
 skills:
   - name: Research
